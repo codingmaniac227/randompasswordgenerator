@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 50px;
+}
+
+
+#green {
+    color: springgreen;
+}
+
+#green-btn {
+    color: white;
+    background-color: springgreen;
+    border-radius: 5px;
+    border-style: none;
+    width: 250px;
+    font-size: x-large;
+    padding: 1px;
+}
+
+#generated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    color: springgreen;
+    font-size: x-large;
+    text-align: center;
+}
+
+#password-1, #password-2 {
+    height: 40px;
+    width: 280px;
+    background-color: beige;  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 70px;
+    border-style: solid;
+    border-width: 7px;
+}
